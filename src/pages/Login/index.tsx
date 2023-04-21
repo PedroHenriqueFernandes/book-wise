@@ -1,14 +1,14 @@
 import { ButtonsContainer, Container, FormContainer, FormContent, ImageContainer, ImageContent, TextContainer } from "./styles";
 
-import background from "../../assets/background-home.png"
+import background from "../../../public/assets/background-home.png"
 import { Button } from "@/components/Button";
 
-import googleIcon from "../../assets/google-icon.svg"
-import githubIcon from "../../assets/github-icon.svg"
-import rocketIcon from "../../assets/rocket-icon.svg"
+import googleIcon from "../../../public/assets/google-icon.svg"
+import githubIcon from "../../../public/assets/github-icon.svg"
+import rocketIcon from "../../../public/assets/rocket-icon.svg"
 import { HeadingLarge, TextMedium } from "@/styles/fonts";
 
-export default function Home() {
+export default function Login() {
     return(
         <Container>
             <ImageContainer>
@@ -28,9 +28,9 @@ export default function Home() {
                     
 
                     <ButtonsContainer>
-                        <Button text="Entrar com Google" img={googleIcon}/>
-                        <Button text="Entrar com Github" img={githubIcon}/>
-                        <Button text="Acessar como visitante" img={rocketIcon}/>
+                        <Button text="Entrar com Google" img={googleIcon} alt={"Logo da google"} />
+                        <Button text="Entrar com Github" img={githubIcon} alt={"Logo do github"} />
+                        <Button text="Acessar como visitante" img={rocketIcon} alt={"Imagem de um foguete"}/>
                     </ButtonsContainer>
                 </FormContent>
                 

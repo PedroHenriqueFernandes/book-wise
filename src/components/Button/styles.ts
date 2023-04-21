@@ -12,6 +12,7 @@ export const Container = styled("button", {
     alignItems: 'center',
     justifyContent: 'flex-start',
     gap: '$5',
+    cursor: 'pointer',
 })
 
 export const ImageContainer = styled(Image, {})

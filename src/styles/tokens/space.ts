@@ -13,6 +13,7 @@ export const space = {
   18: '4.5rem',
   20: '5rem',
   40: '10rem',
+  60: '14.5rem',
   64: '16rem',
   80: '20rem',
 }

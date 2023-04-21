@@ -8,6 +8,14 @@ export const ButtonSmall = styled("p", {
     lineHeight: '$base',
 })
 
+export const ButtonMediumText = styled("p", {
+    fontFamily: '$default',
+    fontSize: '$md',
+    fontWeight: '$bold',
+    color: '$gray100',
+    lineHeight: '$base',
+})
+
 export const HeadingLarge = styled("h1", {
     fontFamily: '$default',
     fontSize: '$2xl',
